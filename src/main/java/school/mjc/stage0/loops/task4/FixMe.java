@@ -7,9 +7,12 @@ public class FixMe {
                 System.out.println(i);
             } else if (i == 7) {
                 System.out.println("last");
-                break;
                 System.out.println("will I be printed?");
+                break;
             }
         }
     }
 }
+
+
+//Expected output: 0 2 4 6 last will I be printed?
